@@ -6,7 +6,7 @@ function biggerWords2(str,arr){
   let returnArr = []
   for(let word of arr){
     if (word.length>str.length){
-      returnArr.push(returnArr);
+      returnArr.push(word);
     }
   }
   return returnArr;
